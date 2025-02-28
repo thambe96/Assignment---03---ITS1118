@@ -78,7 +78,7 @@
             width: 25vw;
             height: 50vh;
 
-            background-color: yellow;
+            background-color: orange;
 
             border-radius: 50%;
 
@@ -156,7 +156,32 @@
 
 
 
+    .text-1 {
 
+        width: fit-content;
+        height: fit-content;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+
+        color: azure;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        margin: auto;
+
+
+
+    }
+
+    #last-text {
+        text-wrap: balance;
+    }
 
 
 
@@ -177,13 +202,19 @@
 <body>
 
 
-    <div class="circle-outer"> </div>
+    <div class="circle-outer"></div>
 
-    <div class="circle-green"></div>
+    <div class="circle-green">
+        <span class="text-1">Hello</span>
+    </div>
 
-    <div class="circle-yellow"></div>
+    <div class="circle-yellow">
+        <span class="text-1">Welcome</span>
+    </div>
 
-    <div class="circle-purple"></div>
+    <div class="circle-purple">
+        <span class="text-1" id="last-text">Institute Of Software Engineering</span>
+    </div>
 
     <div class="circle"></div>
 
